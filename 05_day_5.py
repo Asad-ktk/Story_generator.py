@@ -1,0 +1,17 @@
+noun=input("Enter a noun: ")
+verb=input("Enter a verb: ")
+adjective=input("Enter n adjective: ")
+place=input("Enter a place: ")
+number=input("Enter time: ")
+
+print("----MAD LIBS STORY-----")
+print(f" One day a {adjective} {noun} decided to {verb} to {place}.")
+print(f" It took him {number} hours to reach to the destination.")
+
+print(f"{'Type' :<12} {'Word':<12}")
+print("-" *20)
+print(f"{'Noun ':<12} {noun :<12}")
+print(f"{'Verb ':<12} {verb :<12}")
+print(f"{'Adjective ':<12} {adjective :<12}")
+print(f"{'Place ':<12} {place :<12}")
+print(f"{'Number ':<12} {number :<12}")
